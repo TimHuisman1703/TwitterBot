@@ -9,7 +9,7 @@ def post_delft_weather():
 	twitterbot.post_tweet(message, account)
 
 INTERVAL = 30 * 60
-HOUR_OF_POSTING = 13
+HOUR_OF_POSTING = 8
 
 posted_today = False
 
