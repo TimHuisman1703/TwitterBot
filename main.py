@@ -23,4 +23,5 @@ while True:
 	if hour == 1:
 		posted_today = False
 
+	print("Still online")
 	time.sleep(INTERVAL)
