@@ -20,7 +20,7 @@ def get_weather_rating_delft():
 	index = html.find("wol-forecastDay-module__weatherRating___")
 	index = html.find("grade_", index) + 6
 	
-	return int(html[index:(index+1 if html[index+1] != "0" else index+2])
+	return int(html[index:(index+1 if html[index+1] != "0" else index+2)])
 
 def generate_weather_message():
 	# read responses from file
