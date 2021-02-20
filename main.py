@@ -8,8 +8,8 @@ def post_delft_weather():
 	message = twitterbot.generate_weather_message()
 	twitterbot.post_tweet(message, account)
 
-INTERVAL = 30 * 60
-HOUR_OF_POSTING = 8
+INTERVAL = 10 * 60		# check time every 10 minutes
+HOUR_OF_POSTING = 7		# post at 7am GMT (8am in Delft)
 
 posted_today = False
 
